@@ -1,0 +1,160 @@
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #E5E5E5;
+  font-weight: bold;
+  font-style: normal;
+  color: black;
+}
+header {
+  width: 100%;
+  height: 101px;
+  background-color: #8D76CE;
+  color: #fff;
+  position :absolute; 
+  top: 0px;
+  padding-left: 0px;
+}
+.header-left {
+  height: 18px;
+  width: 140px;  
+  padding-top: 32px;
+  padding-left: 69px;
+  float: left;
+  font-size: 36px;
+  line-height: 42px;
+}
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+.header-right a {
+  text-decoration: none;
+  height: 18px;
+  width: 145px;
+  padding: 41px 25px;
+  font-size: 24px;
+  color: #fff;
+  float: left;
+  line-height: 28px;
+  transition: all 0.5s;
+}
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.top-wrapper {
+  width: 918px;
+  height: 231px;
+  padding-left: 69px;
+  padding-top: 272px;
+  text-align: left;
+}
+.top-wrapper h1 {
+  font-size: 48px;
+}
+.top-wrapper h2{
+  font-size: 36px;
+  color: #7694CE;
+}
+span a{
+  color: #8D76CE;
+}
+.heading {
+  text-align: center;
+  width: 751px;
+  height: 42px;
+  padding: 50px 200px;
+  font-size: 24px;
+}
+.catlovers {
+  width: 150px;
+  font-size: 24px;
+  border-radius: 15px;
+  background-color: #8D76CE;
+}
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  text-align: center;
+}
+.btn:hover {
+  opacity: 1;
+}
+.mycat {
+  padding-bottom: 80px;
+  padding-top: 500px;
+  text-align: center;
+}
+img{
+  width: 100%;
+  height: 100%;
+  padding-left: 69px;
+}
+.cat {
+  float: left;
+  width: 25%;
+  padding-left: 51px;
+}
+.cat-icon {
+  position: relative;
+}
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 60px;
+  padding-top: 400px;
+  text-align: center;
+}
+.contact-form {
+  padding-top: 20px;
+  font-size: 24px; 
+}
+input, textarea{
+  width:400px;
+  margin-top:10px;
+  margin-bottom:30px;
+  padding:20px;  border: 1px solid #8D76CE;
+  border-radius: 20px;
+}
+input{
+  height: 47px;
+}
+
+textarea{
+  height: 208px;
+ 
+}
+.submit{
+  background-color: #8D76CE;
+  color: white;
+  height: 64px;
+  font-size: 24px;
+}
+footer p{
+  color: #b3aeb5;
+  font-size: 12px;
+  text-align: center;
+}
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.dark{
+  background-color: #fff;
+  font-size: 10px;
+  color: black;
+  padding-top: 20px 20px;
+  margin-top: 40px;
+}
